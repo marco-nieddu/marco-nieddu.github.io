@@ -93,7 +93,6 @@ sections:
         journal: "European Journal of Political Economy"
         year: 2023
         details: "Volume 79, 102406"
-        note: "Previously circulated as *Political Selection and Monetary Incentives in Local Parliamentary Systems*."
         abstract: >-
           Using a rich database covering all local politicians in Italian municipalities, we implement a
           regression-discontinuity analysis to evaluate the causal effect of monetary incentives on political
