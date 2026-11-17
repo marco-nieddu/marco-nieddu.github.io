@@ -104,7 +104,7 @@ address { font-style: normal; }
 .prose h2:first-child { margin-top: 0; }
 .editions { list-style: none; padding: 0; margin: 0 0 1rem; clear: both; }
 /* Small picture beside the text (Workshops) */
-.figure-right { float: right; width: 15rem; max-width: 45%; margin: 0.35rem 0 1rem 1.5rem; }
+.figure-right { float: right; width: 20rem; max-width: 48%; margin: 0.35rem 0 1rem 1.5rem; }
 /* Push it out to the right edge of the page, into the space beside the text column */
 @media (min-width: 40.01rem) { .figure-right { margin-right: calc(-1 * max(0rem, min(100vw - 2rem, var(--wide)) - var(--measure))); } }
 .figure-right img { display: block; width: 100%; height: auto; border-radius: 2px; }
