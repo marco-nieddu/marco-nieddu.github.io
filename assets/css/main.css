@@ -161,7 +161,10 @@ address { font-style: normal; }
 /* Phones */
 @media (max-width: 40rem) {
   body { font-size: 1rem; }
-  .home .site-name { display: none; }
+  /* Phones: the home page shows the name at the top, like the other pages,
+     and the big name next to the photo is kept only for screen readers */
+  .home .site-name { visibility: visible; }
+  .intro h1 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; margin: 0; }
   .intro--photo { grid-template-columns: 1fr; gap: 1.5rem; }
   .portrait { max-width: 9rem; }
   .dated li { grid-template-columns: 1fr; gap: 0; padding: 0.45rem 0; }
