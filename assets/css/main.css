@@ -56,7 +56,7 @@ main, .site-header, .site-footer { max-width: var(--wide); margin: 0 auto; }
 
 a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
 a:hover { color: var(--accent-hover); text-decoration-thickness: 2px; }
-a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
 
 h1, h2, h3 { font-weight: 400; line-height: 1.2; }
 h2 { font-size: 1.5rem; margin: 0 0 1rem; }
@@ -120,6 +120,13 @@ address { font-style: normal; }
 .venue cite { font-style: italic; }
 .paper .links { margin-top: 0.1rem; font-size: 0.8rem; }
 .paper .note { margin-top: 0.1rem; }
+/* Square +/− button after the title that opens the abstract */
+.abstract-toggle { display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; margin-left: 0.4rem; padding: 0; border: 0; border-radius: 2px; background: var(--accent); color: var(--bg); font: 400 1rem/1 -apple-system, system-ui, "Segoe UI", sans-serif; cursor: pointer; vertical-align: 0.05em; }
+.abstract-toggle:hover { background: var(--accent-hover); }
+.abstract-toggle::after { content: "+"; }
+.abstract-toggle[aria-expanded="true"]::after { content: "\2212"; }
+.paper .abstract { max-width: var(--measure); margin: 0.5rem 0 0.2rem; padding-left: 0.9rem; border-left: 2px solid var(--rule); font-size: 0.92rem; }
+.paper .abstract p { margin: 0 0 0.5rem; font-size: inherit; }
 
 /* Teaching */
 .courses { margin-bottom: 3rem; }
@@ -140,9 +147,6 @@ address { font-style: normal; }
 .bio .dated, .bio .plain { margin-bottom: 2.5rem; }
 .plain { list-style: none; padding: 0; margin: 0; }
 
-details { margin-top: 0.5rem; font-size: 0.95rem; }
-summary { cursor: pointer; color: var(--accent); width: max-content; }
-details[open] summary { margin-bottom: 0.5rem; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--rule); padding: 1.25rem 0 2.5rem; color: var(--muted); font-size: 0.9rem; }

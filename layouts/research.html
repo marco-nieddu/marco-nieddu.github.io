@@ -9,4 +9,17 @@
 </section>
 {{ end }}
 {{ end }}
+<script>
+  // Abstracts start closed; without JavaScript they simply stay visible.
+  document.querySelectorAll(".abstract-toggle").forEach(function (b) {
+    var box = document.getElementById(b.getAttribute("aria-controls"));
+    b.setAttribute("aria-expanded", "false");
+    box.hidden = true;
+    b.addEventListener("click", function () {
+      var open = b.getAttribute("aria-expanded") === "true";
+      b.setAttribute("aria-expanded", String(!open));
+      box.hidden = open;
+    });
+  });
+</script>
 {{ end }}

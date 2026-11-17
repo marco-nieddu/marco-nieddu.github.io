@@ -1,6 +1,7 @@
 {{- $p := . -}}
+{{- $id := printf "abstract-%s" (urlize $p.title) -}}
 <article class="paper">
-  <h3>{{ with $p.url }}<a href="{{ . }}">{{ $p.title }}</a>{{ else }}{{ $p.title }}{{ end }}</h3>
+  <h3>{{ with $p.url }}<a href="{{ . }}">{{ $p.title }}</a>{{ else }}{{ $p.title }}{{ end }}{{ with $p.abstract }} <button type="button" class="abstract-toggle" aria-expanded="true" aria-controls="{{ $id }}" aria-label="Abstract" title="Abstract"></button>{{ end }}</h3>
   {{ with $p.coauthors }}
   {{ $n := len . }}
   <p class="authors">with
@@ -19,10 +20,5 @@
   </ul>
   {{ end }}
   {{ with $p.note }}<p class="note">{{ . | markdownify }}</p>{{ end }}
-  {{ with $p.abstract }}
-  <details>
-    <summary>Abstract</summary>
-    {{ . | markdownify }}
-  </details>
-  {{ end }}
+  {{ with $p.abstract }}<div class="abstract" id="{{ $id }}">{{ . | markdownify }}</div>{{ end }}
 </article>

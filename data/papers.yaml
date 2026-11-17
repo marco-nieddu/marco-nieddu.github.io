@@ -9,7 +9,7 @@
 #   details     volume, pages, etc. (optional)
 #   note        one line, e.g. a previous title or a grant (optional, Markdown allowed)
 #   links       briefs and news coverage, list of {label, url} shown in small type under the entry (optional)
-#   abstract    shown in a collapsible block (optional, Markdown allowed)
+#   abstract    opened by the + button after the title (optional, Markdown allowed)
 
 sections:
   - heading: "Published and forthcoming papers"
@@ -21,7 +21,15 @@ sections:
         status: "accepted for publication"
         links:
           - { label: "VoxDev Column", url: "https://voxdev.org/topic/education/how-teacher-wage-policies-help-reduce-urban-rural-achievement-gaps-evidence-peru" }
-        abstract: ""
+        abstract: >-
+          We exploit data on centralized teacher recruitment in Perú to establish that wage rigidity creates
+          large urban-rural disparities in teacher effectiveness. Leveraging a teacher compensation reform, we
+          provide causal evidence that increasing salaries in less desirable locations attracts qualified
+          teachers and improves student learning. We estimate a model of teacher sorting and student
+          achievement featuring rich heterogeneity in teachers’ preferences and effectiveness. Substantial
+          equity and efficiency gains arise from reallocating existing teachers to exploit match effects or
+          attracting applicants with higher average effectiveness into public teaching. Counterfactual wage
+          schedules achieving these gains suggest that the latter is more cost-effective.
 
       - title: "The Magic of the Game: Experimental Evidence on Sports Betting Behavior"
         url: "https://www.csef.it/WP/wp655.pdf"
@@ -29,7 +37,15 @@ sections:
         journal: "Journal of Economic Behavior and Organization"
         year: 2025
         details: "Volume 240, 107301"
-        abstract: ""
+        abstract: >-
+          As sports betting is surging worldwide, so are concerns about excessive gambling. To explore the
+          drivers of this phenomenon, we conduct an experiment investigating how regular sports bettors in
+          urban Tanzania value sports bets and form expectations about winning probabilities. We find that
+          subjects assign higher certainty equivalents and winning probabilities to sports bets than to
+          urn-and-balls lotteries with identical odds, even though, in fact, they are not more likely to win.
+          We complement the experimental evidence with original survey data on sports betting frequency and
+          motives. Overall, our results suggest that systematic misperceptions of the risks and returns
+          associated with sports betting may contribute to its booming popularity.
 
       - title: "The Effect of Tenure-track Systems on Selection and Productivity in Economics"
         url: "https://www.sciencedirect.com/science/article/pii/S0927537125001034"
@@ -38,7 +54,18 @@ sections:
         year: 2025
         details: "Volume 97, 102779"
         note: "Supported by the Career Structure in Economics Research Grant, European Economic Association."
-        abstract: ""
+        abstract: >-
+          This paper examines how publication-based tenure-track systems affect the careers of Ph.D. graduates
+          in Economics. We leverage a 2010 reform in Italy that replaced open-ended assistant professor (AP)
+          positions with fixed-term contracts and introduced publication minimum requirements for career
+          advancement. Using survey and administrative data, along with a Difference-in-Differences
+          Event-Study approach comparing Economics to less academically-oriented fields, we find that the
+          reform significantly reduced the likelihood of Economics Ph.D. graduates entering academia in Italy,
+          while increasing transitions to academic careers abroad or to public and private sector jobs.
+          Talented graduates were disproportionately affected, revealing negative selection into Italian
+          academia following the removal of permanent AP positions. Despite these trends, tenure-track hires
+          tend to publish more in high-ranking journals, suggesting that the reform’s incentive effects may
+          partly mitigate its negative selection effects.
 
       - title: "Depowering Risk: Vehicle Power Restriction and Teen Driver Accidents in Italy"
         url: "https://www.journals.uchicago.edu/doi/10.1086/725936"
@@ -48,7 +75,17 @@ sections:
         details: "Volume 66(4), 765–795"
         links:
           - { label: "VoxEU column", url: "https://cepr.org/voxeu/columns/temporary-restrictions-use-high-power-vehicles-significantly-reduce-teen-driver" }
-        abstract: ""
+        abstract: >-
+          This paper investigates the road safety impact of a restriction in engine power on novice drivers.
+          The restriction, introduced in Italy in 2011, prevents drivers from using high-performance vehicles
+          during the first year they have their license. To estimate the effect on teens’ traffic accidents,
+          we leverage the between-cohorts difference in exposure to the reform. When prevented from using
+          high-powered cars, teens are 13 percent less likely to cause an accident and 28 percent less likely
+          to cause a fatal accident, mainly because of fewer speeding violations. This effect persists even
+          after the 1-year restriction ends. These findings highlight the importance of targeted
+          policies—directed at those generating the greatest harm—that limit exposure to specific high-risk
+          settings. These policies stand out as an effective yet feasible alternative to deterrence-based
+          strategies and screening mechanisms, which are often difficult to enforce and sustain.
 
       - title: "Choosing Not to Lead: Monetary Incentives and Political Selection in Local Parliamentary Systems"
         url: "https://www.sciencedirect.com/science/article/pii/S0176268023000502"
@@ -57,7 +94,19 @@ sections:
         year: 2023
         details: "Volume 79, 102406"
         note: "Previously circulated as *Political Selection and Monetary Incentives in Local Parliamentary Systems*."
-        abstract: ""
+        abstract: >-
+          Using a rich database covering all local politicians in Italian municipalities, we implement a
+          regression-discontinuity analysis to evaluate the causal effect of monetary incentives on political
+          selection in local parliamentary systems. We find that higher expected wages lead to the selection
+          of more educated council members and executives, but do not result into better educated mayors.
+          Low-wage councils tend to elect mayors with almost two years more schooling than the median
+          councillor, but this difference vanishes in high-wage councils. We rationalize this finding in a
+          model where better educated councillors shy away from better-paid but full-time positions (such as
+          mayor) and prefer less-paid but part-time positions (executives) that allow them to devote more time
+          to work while in office. An analysis by politicians’ occupation and retirement status supports this
+          explanation. Our findings thus highlight that the effects of monetary incentives are not invariant
+          across different institutional settings, especially when the election systems include a
+          parliamentary stage.
 
       - title: "The Effectiveness of Promotion Incentives for Public Employees: Evidence from Italian Academia"
         url: "https://academic.oup.com/economicpolicy/advance-article/doi/10.1093/epolic/eiac017/6549525"
@@ -67,7 +116,18 @@ sections:
         details: "Volume 37(112), 697–748"
         links:
           - { label: "Economic Policy Panel brief", url: "https://www.economic-policy.org/74th-economic-policy-panel/promotion-incentives/" }
-        abstract: ""
+        abstract: >-
+          We investigate how promotion incentives affect the productivity of a large sample of high-skilled
+          public employees: academics. In a fuzzy regression-discontinuity design, we exploit the three
+          bibliometric thresholds of the 2012 National Scientific Qualification (NSQ), the centralized
+          evaluation procedure regulating career advancements in Italian universities. We compare the 2013–16
+          research productivity of assistant professors barely qualified for associate professor—whose next
+          goal becomes meeting the higher thresholds for the full professor qualification—with the
+          productivity of candidates who barely miss the qualification—whose goal remains meeting the
+          associate professor thresholds. We find that barely qualified scholars publish significantly more
+          papers than their non-qualified colleagues, in journals of comparable quality. Our results emphasize
+          the importance of promotion incentives as an effective incentivizing tool in public universities and
+          more in general public organizations.
 
       - title: "Cutting Through the Fog: Financial Literacy and Financial Investment Choices"
         url: "https://academic.oup.com/jeea/advance-article/doi/10.1093/jeea/jvz081/5721773"
@@ -75,7 +135,20 @@ sections:
         journal: "Journal of the European Economic Association"
         year: 2021
         details: "Volume 19(1), 237–274"
-        abstract: ""
+        abstract: >-
+          This paper examines the impact of financial literacy on the individual propensity to invest in
+          financial assets. In a laboratory experiment with a two-by-two design, we study how the certainty
+          equivalent of a risky lottery changes when varying the lottery framing and the participants’
+          financial literacy level. We find that presenting the lottery as a financial asset—whose payoffs
+          need to be computed from a given return rate—rather than as a simple coin toss reduces the average
+          value participants assign to the lottery by approximately 20% and lowers their understanding of the
+          lottery’s structure. Enhancing financial literacy by explaining the basic financial concepts
+          involved in the description of the financial-asset lottery, offsets the negative effects of the
+          financial framing: it improves respondents’ understanding of the lottery and increases the certainty
+          equivalent. Our results—which can be rationalized by ambiguity aversion—shed new light on the
+          linkages between financial literacy and financial investment behavior. Additionally, they highlight
+          the importance of promoting financial education to stimulate households’ financial market
+          participation.
 
   - heading: "Working papers and work in progress"
     papers:

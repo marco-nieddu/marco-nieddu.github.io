@@ -20,7 +20,7 @@ Personal academic website, built with [Hugo](https://gohugo.io) (version 0.169.0
 
 1. **Photo:** save it as `static/img/photo.jpg` (portrait, about 600×725 px). The home page shows it automatically once the file exists.
 2. **CV:** replace `static/files/cv.pdf` with the new file.
-3. **Abstracts:** each paper in `data/papers.yaml` has an empty `abstract: ""` field. Paste the text between the quotes; an "Abstract" toggle appears for every paper that has one.
+3. **Abstracts:** the `abstract:` field of each paper in `data/papers.yaml`. Every paper that has one gets a small + button after its title that opens the abstract. The published papers use the journals' final abstracts.
 
 ## Add a paper
 
