@@ -153,7 +153,7 @@ sections:
   - heading: "Working papers and work in progress"
     papers:
       - title: "Signal Extraction in Centralized Assignment: Evidence from Teacher Recruiting"
-        url: "https://matteobobba.github.io/BELNN2_Nov2026.pdf"
+        url: "/files/papers/signal-extraction.pdf"
         coauthors: ["Matteo Bobba", "Tim Ederer", "Gianmarco León-Ciliotta", "Christopher Neilson"]
         abstract: >-
           We study the design of decentralized signal extraction in centralized assignment. Using data on
