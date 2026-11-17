@@ -42,8 +42,8 @@ enableRobotsTXT = true
     pageRef = "/workshops"
     weight = 30
   [[menus.main]]
-    name = "Bio"
-    pageRef = "/bio"
+    name = "About"
+    pageRef = "/about"
     weight = 40
 
 [markup.goldmark.renderer]
