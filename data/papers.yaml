@@ -18,7 +18,9 @@ sections:
         url: "https://www.nber.org/papers/w29068"
         coauthors: ["Matteo Bobba", "Tim Ederer", "Gianmarco León-Ciliotta", "Christopher Neilson"]
         journal: "Journal of Political Economy"
-        status: "Forthcoming"
+        status: "accepted for publication"
+        links:
+          - { label: "VoxDev Column", url: "https://voxdev.org/topic/education/how-teacher-wage-policies-help-reduce-urban-rural-achievement-gaps-evidence-peru" }
         abstract: ""
 
       - title: "The Magic of the Game: Experimental Evidence on Sports Betting Behavior"
