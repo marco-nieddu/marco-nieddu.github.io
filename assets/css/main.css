@@ -105,6 +105,8 @@ address { font-style: normal; }
 .editions { list-style: none; padding: 0; margin: 0 0 1rem; clear: both; }
 /* Small picture beside the text (Workshops) */
 .figure-right { float: right; width: 15rem; max-width: 45%; margin: 0.35rem 0 1rem 1.5rem; }
+/* Push it out to the right edge of the page, into the space beside the text column */
+@media (min-width: 40.01rem) { .figure-right { margin-right: calc(-1 * max(0rem, min(100vw - 2rem, var(--wide)) - var(--measure))); } }
 .figure-right img { display: block; width: 100%; height: auto; border-radius: 2px; }
 .figure-right figcaption { margin-top: 0.4rem; color: var(--muted); font-size: 0.78rem; line-height: 1.35; }
 .editions li { display: grid; grid-template-columns: 4rem 1fr; gap: 1rem; padding: 0.35rem 0; }
