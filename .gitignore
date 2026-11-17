@@ -1,0 +1,8 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.DS_Store
+
+# Working notes, kept out of the public repository
+CLAUDE.md
+.claude/

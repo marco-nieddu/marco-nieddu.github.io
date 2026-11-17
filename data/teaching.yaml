@@ -1,0 +1,40 @@
+# Teaching page: "current" and "past" become the two lists, in this order.
+# Fields per course:
+#   title   course name
+#   url     link on the title (optional)
+#   level   e.g. "Masters level — University of Cagliari" (optional)
+#   years   e.g. "Fall 2019–2022" or "Spring 2013, Spring 2015" (optional)
+#   links   list of {label, url} shown under the entry (optional)
+# Slides link to the English version of the UniCa materials page (/page/en/...).
+
+current:
+  - title: "Public Finance"
+    level: "Masters level — Economics and Management, University of Cagliari"
+    years: "Fall 2020–2026"
+    links:
+      - { label: "Syllabus", url: "https://unica.coursecatalogue.cineca.it/corsi/2026/11149/insegnamenti/2026/3338/2026/3?coorte=2026&schemaid=5433" }
+      - { label: "Slides", url: "https://web.unica.it/unica/page/en/marcog_nieddu_mat_scienza_delle_finanze_20252026" }
+
+  - title: "Data Analysis for Economics"
+    level: "Masters level — Economics, Finance, and Data Analysis, University of Cagliari"
+    years: "Fall 2024–2026"
+    links:
+      - { label: "Syllabus", url: "https://unica.coursecatalogue.cineca.it/corsi/2026/11150/insegnamenti/2026/22482/2026/1?coorte=2026&schemaid=5429" }
+      - { label: "Slides", url: "https://web.unica.it/unica/page/en/marcog_nieddu_mat_data_analysis_for_economics_20262027" }
+
+  - title: "Applied Economics"
+    level: "Masters level — Economics and Management, University of Cagliari"
+    years: "Fall 2026"
+    links:
+      - { label: "Syllabus", url: "https://unica.coursecatalogue.cineca.it/corsi/2026/11149/insegnamenti/2026/1143/2026/2?coorte=2026&schemaid=5432" }
+
+past:
+  - title: "Political Economy"
+    level: "BA level — Law, University of Cagliari"
+    years: "Fall 2025"
+    links:
+      - { label: "Syllabus", url: "https://unica.coursecatalogue.cineca.it/corsi/2024/10056/insegnamenti/2025/13622/2022/9999?coorte=2024&schemaid=4972" }
+      - { label: "Slides", url: "https://web.unica.it/unica/page/en/marcog_nieddu_mat_economia_politica_20252026" }
+
+  - title: "Econometrics Methods"
+    level: "PhD level"

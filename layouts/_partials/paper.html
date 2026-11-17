@@ -1,0 +1,28 @@
+{{- $p := . -}}
+<article class="paper">
+  <h3>{{ with $p.url }}<a href="{{ . }}">{{ $p.title }}</a>{{ else }}{{ $p.title }}{{ end }}</h3>
+  {{ with $p.coauthors }}
+  {{ $n := len . }}
+  <p class="authors">with
+    {{- range $i, $a := . -}}
+      {{- if gt $i 0 -}}{{- if eq (add $i 1) $n -}}{{- if gt $n 2 -}},{{- end }} and {{ else }}, {{ end -}}{{- else }} {{ end -}}
+      {{- with index hugo.Data.coauthors $a -}}<a href="{{ . }}">{{ $a }}</a>{{- else -}}{{ $a }}{{- end -}}
+    {{- end -}}
+  </p>
+  {{ end }}
+  {{ with $p.journal }}
+  <p class="venue"><cite>{{ . }}</cite>{{ with $p.status }}, {{ . }}{{ else }}{{ with $p.year }}, {{ . }}{{ end }}{{ end }}{{ with $p.details }}, {{ . }}{{ end }}</p>
+  {{ end }}
+  {{ with $p.links }}
+  <ul class="links">
+    {{ range . }}<li><a href="{{ .url }}">{{ .label }}</a></li>{{ end }}
+  </ul>
+  {{ end }}
+  {{ with $p.note }}<p class="note">{{ . | markdownify }}</p>{{ end }}
+  {{ with $p.abstract }}
+  <details>
+    <summary>Abstract</summary>
+    {{ . | markdownify }}
+  </details>
+  {{ end }}
+</article>

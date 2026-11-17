@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ site.Params.description }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ site.Params.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ if fileExists "static/img/photo.jpg" }}<meta property="og:image" content="{{ "img/photo.jpg" | absURL }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="preload" href="{{ "fonts/instrument-serif-latin-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

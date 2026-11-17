@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h1 class="page-title">{{ .Title }}</h1>
+{{ with .Content }}<div class="prose page-intro">{{ . }}</div>{{ end }}
+<p class="page-intro"><a href="{{ partial "cv-url.html" . }}">CV (PDF)</a></p>
+{{ with hugo.Data.bio }}
+<div class="bio">
+  {{ with .positions }}
+  <h2 id="positions">Positions</h2>
+  <ul class="dated">
+    {{ range . }}<li><span class="when">{{ .years }}</span><span>{{ .text }}</span></li>{{ end }}
+  </ul>
+  {{ end }}
+  {{ with .education }}
+  <h2 id="education">Education</h2>
+  <ul class="dated">
+    {{ range . }}<li><span class="when">{{ .years }}</span><span>{{ .text }}</span></li>{{ end }}
+  </ul>
+  {{ end }}
+  {{ with .other }}
+  <h2 id="other">Other things</h2>
+  <ul class="plain">
+    {{ range . }}<li><a href="{{ .url }}">{{ .label }}</a></li>{{ end }}
+  </ul>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

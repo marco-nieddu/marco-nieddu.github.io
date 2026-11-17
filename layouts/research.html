@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1 class="page-title">{{ .Title }}</h1>
+{{ with .Content }}<div class="prose page-intro">{{ . }}</div>{{ end }}
+{{ range hugo.Data.papers.sections }}
+{{ if .papers }}
+<section class="papers">
+  <h2>{{ .heading }}</h2>
+  {{ range .papers }}{{ partial "paper.html" . }}{{ end }}
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,11 @@
+{{- $c := . -}}
+<article class="course">
+  <h3>{{ with $c.url }}<a href="{{ . }}">{{ $c.title }}</a>{{ else }}{{ $c.title }}{{ end }}</h3>
+  {{ with $c.level }}<p class="details">{{ . }}</p>{{ end }}
+  {{ with $c.years }}<p class="details">{{ . }}</p>{{ end }}
+  {{ with $c.links }}
+  <ul class="links">
+    {{ range . }}<li><a href="{{ .url }}">{{ .label }}</a></li>{{ end }}
+  </ul>
+  {{ end }}
+</article>

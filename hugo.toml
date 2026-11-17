@@ -1,0 +1,51 @@
+baseURL = "https://www.marconieddu.net/"
+locale = "en"
+title = "Marco Nieddu"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  description = "Marco Nieddu is an Associate Professor of Public Finance at the University of Cagliari. He is an applied microeconomist working in public, labor, and development economics."
+  # Used until you add static/files/cv.pdf. Remove once the Wix plan is cancelled.
+  cvFallback = "https://www.marconieddu.net/_files/ugd/a162be_44a2a399b6e24ccfa994f7bc833c3b22.pdf"
+
+  [[params.profiles]]
+    name = "Google Scholar"
+    url = "https://scholar.google.it/citations?user=wzbgAtYAAAAJ"
+  [[params.profiles]]
+    name = "IZA"
+    url = "https://www.iza.org/person/25645/marco-giovanni-nieddu"
+  [[params.profiles]]
+    name = "RePEc"
+    url = "https://ideas.repec.org/f/pni415.html"
+  [[params.profiles]]
+    name = "Bluesky"
+    url = "https://bsky.app/profile/marconieddu.bsky.social"
+  [[params.profiles]]
+    name = "X"
+    url = "https://twitter.com/marcnieddu"
+
+  [params.contact]
+    address = "Department of Economics and Business, University of Cagliari<br>Via Sant'Ignazio da Laconi 17, Office 9<br>09123 Cagliari, Italy"
+    emails = ["mgnieddu@unica.it", "marcog.nieddu@gmail.com"]
+    phone = "+39 070 675 3415"
+
+[menus]
+  [[menus.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 10
+  [[menus.main]]
+    name = "Teaching"
+    pageRef = "/teaching"
+    weight = 20
+  [[menus.main]]
+    name = "Workshops"
+    pageRef = "/workshops"
+    weight = 30
+  [[menus.main]]
+    name = "Bio"
+    pageRef = "/bio"
+    weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true

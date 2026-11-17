@@ -1,0 +1,95 @@
+# Each section becomes a heading on the Research page, in this order.
+# Fields per paper:
+#   title       paper title
+#   url         link on the title (optional)
+#   coauthors   list of names; names in coauthors.yaml are linked automatically
+#   journal     journal name, shown in the left column (optional)
+#   status      e.g. "Forthcoming", "R&R" (shown instead of the year, optional)
+#   year
+#   details     volume, pages, etc. (optional)
+#   note        one line, e.g. a previous title or a grant (optional, Markdown allowed)
+#   links       briefs and news coverage, list of {label, url} shown in small type under the entry (optional)
+#   abstract    shown in a collapsible block (optional, Markdown allowed)
+
+sections:
+  - heading: "Published and forthcoming papers"
+    papers:
+      - title: "Teacher Compensation and Structural Inequality: Evidence from Centralized Teacher School Choice in Peru"
+        url: "https://www.nber.org/papers/w29068"
+        coauthors: ["Matteo Bobba", "Tim Ederer", "Gianmarco León-Ciliotta", "Christopher Neilson"]
+        journal: "Journal of Political Economy"
+        status: "Forthcoming"
+        abstract: ""
+
+      - title: "The Magic of the Game: Experimental Evidence on Sports Betting Behavior"
+        url: "https://www.csef.it/WP/wp655.pdf"
+        coauthors: ["Martin Chegere", "Paolo Falco", "Lorenzo Pandolfi", "Mattea Stein"]
+        journal: "Journal of Economic Behavior and Organization"
+        year: 2025
+        details: "Volume 240, 107301"
+        abstract: ""
+
+      - title: "The Effect of Tenure-track Systems on Selection and Productivity in Economics"
+        url: "https://www.sciencedirect.com/science/article/pii/S0927537125001034"
+        coauthors: ["Roberto Nisticò", "Lorenzo Pandolfi"]
+        journal: "Labour Economics"
+        year: 2025
+        details: "Volume 97, 102779"
+        note: "Supported by the Career Structure in Economics Research Grant, European Economic Association."
+        abstract: ""
+
+      - title: "Depowering Risk: Vehicle Power Restriction and Teen Driver Accidents in Italy"
+        url: "https://www.journals.uchicago.edu/doi/10.1086/725936"
+        coauthors: ["Silvia Balia", "Rinaldo Brau"]
+        journal: "Journal of Law and Economics"
+        year: 2023
+        details: "Volume 66(4), 765–795"
+        links:
+          - { label: "VoxEU column", url: "https://cepr.org/voxeu/columns/temporary-restrictions-use-high-power-vehicles-significantly-reduce-teen-driver" }
+        abstract: ""
+
+      - title: "Choosing Not to Lead: Monetary Incentives and Political Selection in Local Parliamentary Systems"
+        url: "https://www.sciencedirect.com/science/article/pii/S0176268023000502"
+        coauthors: ["Andrea Caria", "Fabio Cerina"]
+        journal: "European Journal of Political Economy"
+        year: 2023
+        details: "Volume 79, 102406"
+        note: "Previously circulated as *Political Selection and Monetary Incentives in Local Parliamentary Systems*."
+        abstract: ""
+
+      - title: "The Effectiveness of Promotion Incentives for Public Employees: Evidence from Italian Academia"
+        url: "https://academic.oup.com/economicpolicy/advance-article/doi/10.1093/epolic/eiac017/6549525"
+        coauthors: ["Lorenzo Pandolfi"]
+        journal: "Economic Policy"
+        year: 2022
+        details: "Volume 37(112), 697–748"
+        links:
+          - { label: "Economic Policy Panel brief", url: "https://www.economic-policy.org/74th-economic-policy-panel/promotion-incentives/" }
+        abstract: ""
+
+      - title: "Cutting Through the Fog: Financial Literacy and Financial Investment Choices"
+        url: "https://academic.oup.com/jeea/advance-article/doi/10.1093/jeea/jvz081/5721773"
+        coauthors: ["Lorenzo Pandolfi"]
+        journal: "Journal of the European Economic Association"
+        year: 2021
+        details: "Volume 19(1), 237–274"
+        abstract: ""
+
+  - heading: "Working papers and work in progress"
+    papers:
+      - title: "Scholars & the Machine. On Automation and Academic Performance"
+        coauthors: ["Alessio Garau", "Alessio Moro"]
+      - title: "What's in a name? Municipal Mergers, Migration, and Identity"
+        coauthors: ["Claudio Deiana", "Andrea Geraci"]
+      - title: "A Mentoring Program for Women Empowerment"
+        coauthors: ["Michele Giannola", "Lorenzo Pandolfi", "Valeria Zurla"]
+      - title: "Staffing Courts, Judges' Preferences, and Judicial Efficiency"
+        coauthors: ["Monica Langella", "Lorenzo Pandolfi", "Marco Stenborg Petterson"]
+      - title: "Signal Extraction in Hiring. Evidence from Teacher Recruiting"
+        coauthors: ["Matteo Bobba", "Tim Ederer", "Gianmarco León-Ciliotta", "Christopher Neilson"]
+      - title: "Cultural Codes, Institutions, and Crime. Enclosures and Violence in 19th Century Sardinia"
+        coauthors: ["Claudio Deiana"]
+      - title: "Wildfires, Land-Use and Rural Abandonment"
+        coauthors: ["Claudio Deiana", "Andrea Geraci", "Ludovica Giua"]
+      - title: "Choking Under Pressure and Risk Aversion: Evidence from Football Penalties"
+        coauthors: ["Luca Coraggio", "Lorenzo Pandolfi"]
