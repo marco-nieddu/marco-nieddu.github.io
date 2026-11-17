@@ -77,6 +77,9 @@ sections:
 
   - heading: "Working papers and work in progress"
     papers:
+      - title: "Signal Extraction in Centralized Assignment: Evidence from Teacher Recruiting"
+        url: "https://matteobobba.github.io/BELNN2_Nov2026.pdf"
+        coauthors: ["Matteo Bobba", "Tim Ederer", "Gianmarco León-Ciliotta", "Christopher Neilson"]
       - title: "Scholars & the Machine. On Automation and Academic Performance"
         coauthors: ["Alessio Garau", "Alessio Moro"]
       - title: "What's in a name? Municipal Mergers, Migration, and Identity"
@@ -85,8 +88,6 @@ sections:
         coauthors: ["Michele Giannola", "Lorenzo Pandolfi", "Valeria Zurla"]
       - title: "Staffing Courts, Judges' Preferences, and Judicial Efficiency"
         coauthors: ["Monica Langella", "Lorenzo Pandolfi", "Marco Stenborg Petterson"]
-      - title: "Signal Extraction in Hiring. Evidence from Teacher Recruiting"
-        coauthors: ["Matteo Bobba", "Tim Ederer", "Gianmarco León-Ciliotta", "Christopher Neilson"]
       - title: "Cultural Codes, Institutions, and Crime. Enclosures and Violence in 19th Century Sardinia"
         coauthors: ["Claudio Deiana"]
       - title: "Wildfires, Land-Use and Rural Abandonment"
