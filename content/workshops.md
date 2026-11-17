@@ -11,6 +11,6 @@ Starting from the local scale, the workshop goes beyond the Sardinian context th
 The workshop is organized by [Alberto Bisin](https://wp.nyu.edu/albertobisin/), [Claudio Deiana](https://www.claudiodeiana.net/), [Ludovica Giua](https://sites.google.com/site/ludovicagiua/), [Luigi Guiso](https://www.eief.it/eief/index.php/faculty?id=172), [Mario Macis](https://mariomacis.net/), Marco Nieddu, and [Francesco Pigliaru](https://web.unica.it/unica/it/ateneo_s07_ss01.page?contentId=SHD30669), with the financial support of [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
 
 <ul class="editions">
-<li><span class="when">2024</span> <span>II edition: From Sardinia to the World: The Impact of Malaria and Other Infectious Diseases on Health and Economic Development</span></li>
-<li><span class="when">2022</span> <span>I edition: Workshop on Social Norms &amp; Cultural Codes</span></li>
+<li><span class="when">2024</span> <span>II edition: From Sardinia to the World: The Impact of Malaria and Other Infectious Diseases on Health and Economic Development (<a href="/files/workshops/pigliaru-2024-program.pdf">program</a>)</span></li>
+<li><span class="when">2022</span> <span>I edition: Workshop on Social Norms &amp; Cultural Codes (<a href="/files/workshops/pigliaru-2022-program.pdf">program</a>)</span></li>
 </ul>
