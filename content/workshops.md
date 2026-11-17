@@ -4,6 +4,11 @@ title: "Workshops"
 heading: "“Antonio Pigliaru” Workshop"
 ---
 
+<figure class="figure-right">
+<img src="/img/workshops/nivola-village.jpg" width="800" height="480" alt="Watercolour of a stony village in the Sardinian mountains">
+<figcaption>Costantino Nivola, from “DDT in Sardinia”, <i>Fortune</i>, March 1953. Courtesy Fondazione Nivola.</figcaption>
+</figure>
+
 The "Antonio Pigliaru" Workshop, named after the [Sardinian philosopher](https://www.treccani.it/enciclopedia/antonio-pigliaru_(Dizionario-Biografico)/), is a biennial event, each edition focusing on a different topic. The connection between the various themes is that they all link to events and phenomena that have shaped the history of Sardinia.
 
 Starting from the local scale, the workshop goes beyond the Sardinian context through a multidisciplinary approach that, besides economists, combines the perspectives of philosophers, historians, jurists, architects, and other scientists.

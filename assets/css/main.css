@@ -102,7 +102,11 @@ address { font-style: normal; }
 .prose { max-width: var(--measure); }
 .prose h2 { margin-top: 2.5rem; }
 .prose h2:first-child { margin-top: 0; }
-.editions { list-style: none; padding: 0; margin: 0 0 1rem; }
+.editions { list-style: none; padding: 0; margin: 0 0 1rem; clear: both; }
+/* Small picture beside the text (Workshops) */
+.figure-right { float: right; width: 15rem; max-width: 45%; margin: 0.35rem 0 1rem 1.5rem; }
+.figure-right img { display: block; width: 100%; height: auto; border-radius: 2px; }
+.figure-right figcaption { margin-top: 0.4rem; color: var(--muted); font-size: 0.78rem; line-height: 1.35; }
 .editions li { display: grid; grid-template-columns: 4rem 1fr; gap: 1rem; padding: 0.35rem 0; }
 
 .page-intro { margin-bottom: 2.5rem; }
@@ -159,5 +163,6 @@ address { font-style: normal; }
   .intro--photo { grid-template-columns: 1fr; gap: 1.5rem; }
   .portrait { max-width: 9rem; }
   .dated li { grid-template-columns: 1fr; gap: 0; padding: 0.45rem 0; }
+  .figure-right { float: none; width: 100%; max-width: 20rem; margin: 0 0 1.25rem; }
   main { padding-top: 2rem; }
 }
