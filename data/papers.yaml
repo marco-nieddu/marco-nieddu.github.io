@@ -155,6 +155,17 @@ sections:
       - title: "Signal Extraction in Centralized Assignment: Evidence from Teacher Recruiting"
         url: "https://matteobobba.github.io/BELNN2_Nov2026.pdf"
         coauthors: ["Matteo Bobba", "Tim Ederer", "Gianmarco León-Ciliotta", "Christopher Neilson"]
+        abstract: >-
+          We study the design of decentralized signal extraction in centralized assignment. Using data on
+          Peru’s nationwide teacher allocation mechanism, we estimate a rich model of applicants’ behavior,
+          teacher effectiveness and schools’ discretionary screening accounting for heterogeneity in schools’
+          preferences and signal-extraction ability. Decentralized screening improves the effectiveness of
+          selected teachers on average relative to test-based hiring, but its returns vary substantially
+          across schools. We find that efficiently allocating screening capacity according to schools’ signal
+          extraction ability is unfeasible. Instead, we show that using teacher value-added measures for
+          centralized prescreening can generate large gains and outperforms disclosing that information
+          directly to schools. However, prescreening too aggressively leaves more vacancies unfilled as
+          schools increasingly compete for the same candidates.
       - title: "Scholars & the Machine. On Automation and Academic Performance"
         coauthors: ["Alessio Garau", "Alessio Moro"]
       - title: "What's in a name? Municipal Mergers, Migration, and Identity"
