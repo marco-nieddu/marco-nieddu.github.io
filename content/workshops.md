@@ -1,8 +1,8 @@
 ---
 title: "Workshops"
+# Shown as the big heading on the page; the menu and browser tab still say "Workshops".
+heading: "“Antonio Pigliaru” Workshop"
 ---
-
-## "Antonio Pigliaru" Workshop
 
 The "Antonio Pigliaru" Workshop, named after the [Sardinian philosopher](https://www.treccani.it/enciclopedia/antonio-pigliaru_(Dizionario-Biografico)/), is a biennial event, each edition focusing on a different topic. The connection between the various themes is that they all link to events and phenomena that have shaped the history of Sardinia.
 
