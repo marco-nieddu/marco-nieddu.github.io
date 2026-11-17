@@ -5,8 +5,6 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
 
 [params]
   description = "Marco Nieddu is an Associate Professor of Public Finance at the University of Cagliari. He is an applied microeconomist working in public, labor, and development economics."
-  # Used until you add static/files/cv.pdf. Remove once the Wix plan is cancelled.
-  cvFallback = "https://www.marconieddu.net/_files/ugd/a162be_44a2a399b6e24ccfa994f7bc833c3b22.pdf"
 
   [[params.profiles]]
     name = "Google Scholar"

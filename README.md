@@ -19,7 +19,7 @@ Personal academic website, built with [Hugo](https://gohugo.io) (version 0.169.0
 ## Before publishing
 
 1. **Photo:** save it as `static/img/photo.jpg` (portrait, about 600×725 px). The home page shows it automatically once the file exists.
-2. **CV:** save it as `static/files/cv.pdf`. Until then the CV links point to the old Wix file, which stops working when the Wix plan ends.
+2. **CV:** replace `static/files/cv.pdf` with the new file.
 3. **Abstracts:** each paper in `data/papers.yaml` has an empty `abstract: ""` field. Paste the text between the quotes; an "Abstract" toggle appears for every paper that has one.
 
 ## Add a paper
