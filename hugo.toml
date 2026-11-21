@@ -6,6 +6,8 @@ enableRobotsTXT = true
 
 [params]
   description = "Marco Nieddu is an Associate Professor of Public Finance at the University of Cagliari. He is an applied microeconomist working in public, labor, and development economics."
+  # Visitor statistics at https://marconieddu.goatcounter.com (no cookies). Remove the line to turn them off.
+  goatcounter = "marconieddu"
 
   [[params.profiles]]
     name = "Google Scholar"
