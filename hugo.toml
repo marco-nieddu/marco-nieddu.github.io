@@ -11,21 +11,27 @@ enableRobotsTXT = true
 
   [[params.profiles]]
     name = "Google Scholar"
+    icon = "scholar"
     url = "https://scholar.google.it/citations?user=wzbgAtYAAAAJ"
   [[params.profiles]]
     name = "IZA"
+    icon = "iza"
     url = "https://www.iza.org/person/25645/marco-giovanni-nieddu"
   [[params.profiles]]
     name = "RePEc"
+    icon = "repec"
     url = "https://ideas.repec.org/f/pni415.html"
   [[params.profiles]]
     name = "GitHub"
+    icon = "github"
     url = "https://github.com/marco-nieddu"
   [[params.profiles]]
     name = "Bluesky"
+    icon = "bluesky"
     url = "https://bsky.app/profile/marconieddu.bsky.social"
   [[params.profiles]]
     name = "X"
+    icon = "x"
     url = "https://twitter.com/marcnieddu"
 
   [params.contact]

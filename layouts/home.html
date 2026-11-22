@@ -7,8 +7,8 @@
     <h1>{{ site.Title }}</h1>
     {{ .Content }}
     <ul class="profiles">
-      <li><a href="{{ partial "cv-url.html" . }}">CV</a></li>
-      {{ range site.Params.profiles }}<li><a href="{{ .url }}">{{ .name }}</a></li>{{ end }}
+      <li><a href="{{ partial "cv-url.html" . }}">{{ partial "icon.html" "cv" }}CV</a></li>
+      {{ range site.Params.profiles }}<li><a href="{{ .url }}">{{ with .icon }}{{ partial "icon.html" . }}{{ end }}{{ .name }}</a></li>{{ end }}
     </ul>
   </div>
 </section>
