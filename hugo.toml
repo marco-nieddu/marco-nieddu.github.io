@@ -26,6 +26,10 @@ enableRobotsTXT = true
     icon = "github"
     url = "https://github.com/marco-nieddu"
   [[params.profiles]]
+    name = "LinkedIn"
+    icon = "linkedin"
+    url = "https://www.linkedin.com/in/marco-nieddu-21a513324/"
+  [[params.profiles]]
     name = "Bluesky"
     icon = "bluesky"
     url = "https://bsky.app/profile/marconieddu.bsky.social"
