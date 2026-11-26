@@ -1,0 +1,19 @@
+# Talks & Media page: one block per heading, newest first. A block with no items is not shown.
+#   date   e.g. "Jun 2026"
+#   text   one line, Markdown allowed for links and italics
+
+- heading: "Talks"
+  items:
+    - date: "Jul 2026"
+      text: "[Scegliere la Sardegna. Mobilità, lavoro e politiche di attrattività a partire dall’indagine CRENoS–NODI](https://crenos.unica.it/node/13455), public meeting with Federico Esu (NODI), San Gavino Monreale (in Italian)."
+    - date: "Jun 2026"
+      text: "Presentation of the *33° Rapporto CRENoS sull’Economia della Sardegna*, University of Cagliari ([video](https://www.youtube.com/watch?v=l0QBk4NuHY4), in Italian)."
+    - date: "Oct 2025"
+      text: "[Presentation of *CRENoS. Economia della Sardegna. 32º Rapporto 2025*](https://www.arkadiaeditore.it/9-ottobre-marco-nieddu-presenta-crenos-economia-della-sardegna-32o-rapporto-2025/), with Giovanni Runchina, Quartu Sant’Elena (in Italian)."
+    - date: "Jun 2025"
+      text: "Presentation of the *32° Rapporto CRENoS sull’Economia della Sardegna*, University of Cagliari ([video](https://www.youtube.com/watch?v=cmg80Wu6WCw), in Italian)."
+    - date: "Jun 2024"
+      text: "Presentation of the *31° Rapporto CRENoS sull’Economia della Sardegna*, University of Cagliari ([video](https://www.youtube.com/watch?v=kGf1WNw6WOE), in Italian)."
+
+- heading: "Media"
+  items: []

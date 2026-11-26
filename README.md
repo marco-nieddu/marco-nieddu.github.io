@@ -14,6 +14,7 @@ Personal academic website, built with [Hugo](https://gohugo.io) (version 0.169.0
 | About page: positions, education, other things | `data/bio.yaml` |
 | Teaching page: intro text / courses | `content/teaching.md` / `data/teaching.yaml` |
 | Workshops page | `content/workshops.md` |
+| Talks & Media page | `data/talks.yaml` (newest first; a heading with no items is hidden) |
 | Profile links, contact details, menu | `hugo.toml` |
 
 ## Before publishing
