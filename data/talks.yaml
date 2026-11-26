@@ -1,5 +1,5 @@
 # Public Talks & Media page: one list, newest first (talks, interviews and podcasts together).
-#   date   e.g. "5 Jun 2026"
+#   date   e.g. "5 Jun 2026", or a range such as "Jun–Jul 2026" for the CRENoS report presentations of one year
 #   text   one line, Markdown allowed for links and italics
 
 - date: "3 Dec 2026"
@@ -8,17 +8,11 @@
   text: "[Democrazia condivisa: esperienze e prospettive di partecipazione nei territori delle aree interne](https://madoniedintorni.com/2026/07/22/democrazia-condivisa-e-partecipazione-nelle-aree-interne-tavola-rotonda-a-petralia-sottana/), round table, Petralia Sottana."
 - date: "17 Jul 2026"
   text: "[Scegliere la Sardegna. Mobilità, lavoro e politiche di attrattività a partire dall’indagine CRENoS–NODI](https://crenos.unica.it/node/13455), public meeting, San Gavino Monreale."
-- date: "6 Jul 2026"
-  text: "[Presentation of the *33° Rapporto CRENoS sull’Economia della Sardegna*](https://crenos.unica.it/node/13447), Fondazione di Sardegna, Sassari."
-- date: "5 Jun 2026"
-  text: "Presentation of the *33° Rapporto CRENoS sull’Economia della Sardegna*, University of Cagliari ([video](https://www.youtube.com/watch?v=l0QBk4NuHY4), [interview](https://www.unionesarda.it/multimedia/cronaca-sardegna/sardegna-la-presentazione-del-33esimo-rapporto-del-crenos-sull-economia-juqdrwcl), [interview](https://www.youtube.com/watch?v=W_fb2ztccP4))."
+- date: "Jun–Jul 2026"
+  text: "Presentations of the *33° Rapporto CRENoS sull’Economia della Sardegna*: University of Cagliari, 5 Jun ([video](https://www.youtube.com/watch?v=l0QBk4NuHY4), [interview](https://www.unionesarda.it/multimedia/cronaca-sardegna/sardegna-la-presentazione-del-33esimo-rapporto-del-crenos-sull-economia-juqdrwcl), [interview](https://www.youtube.com/watch?v=W_fb2ztccP4)); [Fondazione di Sardegna, Sassari](https://crenos.unica.it/node/13447), 6 Jul."
 - date: "3 Mar 2026"
   text: "[Le imprese sarde sono pronte alla nuova era dell’internazionalizzazione?](https://radiolina.it/podcast/ep-09-le-imprese-sarde-sono-pronte-alla-nuova-era-dellinternazionalizzazione/), podcast *L’isola delle imprese*, Radiolina."
-- date: "9 Oct 2025"
-  text: "[Presentation of *CRENoS. Economia della Sardegna. 32º Rapporto 2025*](https://www.arkadiaeditore.it/9-ottobre-marco-nieddu-presenta-crenos-economia-della-sardegna-32o-rapporto-2025/), Quartu Sant’Elena."
-- date: "1 Jul 2025"
-  text: "[Presentation of the *32° Rapporto CRENoS sull’Economia della Sardegna*](https://www.fondazionedisardegna.it/news/fondazione/1465/fondazione-il-1-luglio-a-sassari-la-presentazione-del-rapporto-crenos-sull-economia-della-sardegna), Fondazione di Sardegna, Sassari."
-- date: "5 Jun 2025"
-  text: "Presentation of the *32° Rapporto CRENoS sull’Economia della Sardegna*, University of Cagliari ([video](https://www.youtube.com/watch?v=cmg80Wu6WCw), [interview](https://www.unionesarda.it/multimedia/crenos-cresce-leconomia-in-sardegna-traina-il-turismo-lnf6sh06), [interview](https://www.lanuovasardegna.it/video/sardegna/2025/06/05/video/rapporto-crenos-il-turismo-continua-a-trainare-l-economia-della-sardegna-1.100717237))."
+- date: "Jun–Oct 2025"
+  text: "Presentations of the *32° Rapporto CRENoS sull’Economia della Sardegna*: University of Cagliari, 5 Jun ([video](https://www.youtube.com/watch?v=cmg80Wu6WCw), [interview](https://www.unionesarda.it/multimedia/crenos-cresce-leconomia-in-sardegna-traina-il-turismo-lnf6sh06), [interview](https://www.lanuovasardegna.it/video/sardegna/2025/06/05/video/rapporto-crenos-il-turismo-continua-a-trainare-l-economia-della-sardegna-1.100717237)); [Fondazione di Sardegna, Sassari](https://www.fondazionedisardegna.it/news/fondazione/1465/fondazione-il-1-luglio-a-sassari-la-presentazione-del-rapporto-crenos-sull-economia-della-sardegna), 1 Jul; [Quartu Sant’Elena](https://www.arkadiaeditore.it/9-ottobre-marco-nieddu-presenta-crenos-economia-della-sardegna-32o-rapporto-2025/), 9 Oct."
 - date: "7 Jun 2024"
   text: "Presentation of the *31° Rapporto CRENoS sull’Economia della Sardegna*, University of Cagliari ([video](https://www.youtube.com/watch?v=kGf1WNw6WOE), [interview](https://www.youtube.com/watch?v=0qvyeepIVZY), [interview](https://www.youtube.com/watch?v=DzQ4yxXZXCs))."
