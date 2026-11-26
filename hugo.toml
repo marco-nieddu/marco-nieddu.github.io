@@ -57,7 +57,7 @@ enableRobotsTXT = true
     pageRef = "/workshops"
     weight = 30
   [[menus.main]]
-    name = "Talks & Media"
+    name = "Public Talks & Media"
     pageRef = "/talks"
     weight = 35
   [[menus.main]]
