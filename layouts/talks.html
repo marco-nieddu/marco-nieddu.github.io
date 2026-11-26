@@ -1,12 +1,9 @@
 {{ define "main" }}
 <h1 class="page-title">{{ .Title }}</h1>
 {{ with .Content }}<div class="prose page-intro">{{ . }}</div>{{ end }}
-{{ range hugo.Data.talks }}{{ if .items }}
-<section class="talks">
-  <h2>{{ .heading }}</h2>
-  <ul class="dated">
-    {{ range .items }}<li><span class="when">{{ .date }}</span><span>{{ .text | markdownify }}</span></li>{{ end }}
-  </ul>
-</section>
-{{ end }}{{ end }}
+{{ with hugo.Data.talks }}
+<ul class="dated talks">
+  {{ range . }}<li><span class="when">{{ .date }}</span><span>{{ .text | markdownify }}</span></li>{{ end }}
+</ul>
+{{ end }}
 {{ end }}

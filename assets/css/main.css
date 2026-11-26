@@ -137,9 +137,9 @@ address { font-style: normal; }
 .paper .abstract p { margin: 0 0 0.5rem; font-size: inherit; }
 
 /* Teaching */
-.courses, .talks { margin-bottom: 3rem; }
-.courses > h2, .talks > h2 { padding-bottom: 0.6rem; border-bottom: 1px solid var(--rule); margin-bottom: 0; }
-.talks > h2 + .dated { margin-top: 0.6rem; }
+.courses { margin-bottom: 3rem; }
+.courses > h2 { padding-bottom: 0.6rem; border-bottom: 1px solid var(--rule); margin-bottom: 0; }
+.dated.talks { margin-bottom: 3rem; }
 .course { padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
 .course h3 { font-size: 1.08rem; margin: 0 0 0.35rem; }
 .course h3 a { color: var(--text); text-decoration-color: var(--rule); }
